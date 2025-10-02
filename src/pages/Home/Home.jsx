@@ -15,6 +15,17 @@ const Home = () => {
             <button type='submit'>Search</button>
         </form>
       </div>
+
+      {/* main table section */}
+      <div className="crypto-table">
+        <div className="table-layout">
+          <p>#</p>
+          <p>Coins</p>
+          <p>Price</p>
+          <p style={{textAlign: "center"}}>24H Change</p>
+          <p className='marketCap'>Market Cap</p>
+        </div>
+      </div>
     </div>
   )
 }
